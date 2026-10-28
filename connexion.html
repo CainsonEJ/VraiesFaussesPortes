@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="media/logo.png" alt="Logo Boutique" style="height:40px;vertical-align:middle;">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="connexion.html">Connexion</a></li>
+            <li><a href="boutique.html">Boutique</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <li>
+            <input type="checkbox" id="theme-toggle" class="theme-toggle-input" aria-label="Changer de thème">
+            <label for="theme-toggle" class="theme-toggle-label"><span>☀️</span><span>🌙</span></label>
+        </li>
+    </nav>
+    <main>
+        <section class="connexion-section">
+            <h2>Connexion</h2>
+            <form class="connexion-form">
+                <label for="username">Nom d'utilisateur ou Email</label>
+                <input type="text" id="username" name="username" placeholder="Votre nom ou email" required>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" placeholder="Votre mot de passe" required>
+                <button type="submit">Se connecter</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="mailto:VraiesFaussesPortes@vraimail.fr" class="footer-link">
+            &copy; 2026 Jouvel Ethan
+        </a>
+    </footer>
+</body>
+
+</html>

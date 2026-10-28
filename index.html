@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Accueil</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="media/logo.png" alt="Logo Boutique" style="height:40px;vertical-align:middle;">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="connexion.html">Connexion</a></li>
+            <li><a href="boutique.html">Boutique</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <li>
+            <input type="checkbox" id="theme-toggle" class="theme-toggle-input" aria-label="Changer de thème">
+            <label for="theme-toggle" class="theme-toggle-label"><span>☀️</span><span>🌙</span></label>
+        </li>
+    </nav>
+    <main>
+        <section class="accueil-section">
+            <h2>🚪 Bienvenue à vous sur la boutique VraiesFaussesPortes 🚪</h2>
+            <h3>Ouvrez l'œil, pas la porte !</h3>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="media/carousel1.jpg" class="d-block w-100" alt="Prier la sainte fausse porte">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/carousel2.jpg" class="d-block w-100" alt="Avant / Après d'une fausse porte">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/carousel3.jpg" class="d-block w-100" alt="Fausse porte en action">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="avis-section">
+                <h3>Meilleurs avis clients</h3>
+                <div class="avis-list">
+                    <div class="avis-card">
+                        <p>"Super boutique, produits de qualité et inutilisable comme attendu !"</p>
+                        <div class="avis-auteur">
+                            <img src="media/alice.jpg" alt="Photo de Alice">
+                            <p2>- Alice</p2>
+                        </div>
+                    </div>
+                    <div class="avis-card">
+                        <p>"Livraison rapide et service client au top. Je n'ai plus qu'une pièce accessible dans mon
+                            appartement !"</p>
+                        <div class="avis-auteur">
+                            <img src="media/bob.jpg" alt="Photo de Bob">
+                            <p2>- Bob</p2>
+                        </div>
+                    </div>
+                    <div class="avis-card">
+                        <p>"Je recommande vivement, avant j'avais des portes qui souvraient tout le temps, maintenant
+                            plus de problèmes !"</p>
+                        <div class="avis-auteur">
+                            <img src="media/clara.jpg" alt="Photo de Clara">
+                            <p2>- Clara</p2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button type="button" class="btn btn-secondary" popovertarget="mon-popover">
+                    /!\ 🚪 Danger d'une vraie porte 🚪 /!\
+                </button>
+
+                <div id="mon-popover" popover>
+                    <img src="media/Popup.png" alt="geg">
+                </div>
+            </div>
+            <div class="partenaires-section">
+                <h3>Nos partenaires</h3>
+                <div class="partenaires-logos">
+                    <img src="media/partenaire1.png" alt="Partenaire 1">
+                    <img src="media/partenaire2.png" alt="Partenaire 2">
+                    <img src="media/partenaire3.png" alt="Partenaire 3">
+                    <img src="media/partenaire4.png" alt="Partenaire 4">
+                    <img src="media/partenaire5.png" alt="Partenaire 5">
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="boutique-section">
+        <h2>Nos produits</h2>
+        <div class="produits-grille">
+            <div class="produit-carte">
+                <img src="media/portegrise.jpg" alt="Produit 1">
+                <h4>Fausse porte grise</h4>
+                <button>Acheter</button>
+            </div>
+            <div class="produit-carte">
+                <img src="media/porteancienne.jpg" alt="Produit 2">
+                <h4>Fausse porte ancienne</h4>
+                <button>Acheter</button>
+            </div>
+            <div class="produit-carte">
+                <img src="media/portebois.jpg" alt="Produit 3">
+                <h4>Fausse porte en bois</h4>
+                <button>Acheter</button>
+            </div>
+            <div class="produit-carte">
+                <img src="media/portevitre.jpg" alt="Produit 4">
+                <h4>Fausse porte mais vraies vitres</h4>
+                <button>Acheter</button>
+            </div>
+            <div class="produit-carte">
+                <img src="media/portealu.jpg" alt="Produit 5">
+                <h4>Fausse porte en aluminium</h4>
+                <button>Acheter</button>
+            </div>
+            <div class="produit-carte">
+                <img src="media/portegarage.jpg" alt="Produit 6">
+                <h4>Fausse porte de garage</h4>
+                <button>Acheter</button>
+            </div>
+            <div class="produit-carte">
+                <img src="media/portereconfort.jpg" alt="Produit 7">
+                <h4>Fausse porte réconfortante</h4>
+                <button>Acheter</button>
+            </div>
+            <div class="produit-carte">
+                <img src="media/portebien.jpg" alt="Produit 8">
+                <h4>Fausse porte bien placée</h4>
+                <button>Acheter</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="mailto:VraiesFaussesPortes@vraimail.fr" class="footer-link">
+            &copy; 2026 Jouvel Ethan
+        </a>
+    </footer>
+</body>
+
+</html>
